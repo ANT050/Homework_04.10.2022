@@ -20,7 +20,7 @@ if (numbers < 100)
 }
 
 if (numbers >= 100 && numbers < 1000)
-    {
+{
     Console.WriteLine($"Вторая цифра числа: {(numbers / 10) % 10}");
 }
 
@@ -32,9 +32,7 @@ if (numbers >= 1000)
 Console.WriteLine(s);
 
 /*
-
 ДРУГОЙ СПОСОБ РЕШЕНИЯ
-
 */
 
 /*string s = String.Empty;
@@ -55,7 +53,7 @@ Console.Write("Введите номер числа: ");
 
 int n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"Число равно: {b[n]}");
+Console.WriteLine($"Число равно: {b[n-1]}");
 Console.WriteLine(s);
 
 */
