@@ -45,12 +45,12 @@ Console.WriteLine(s);
 
 
 /* 
-
 ДРУГОЙ СПОСОБ РЕШЕНИЯ
-
 */
 
-/* string s = String.Empty;
+/*
+
+string s = String.Empty;
 Console.WriteLine(s);
 Console.Write("Введите число: ");
 
@@ -68,14 +68,22 @@ for (int i = 0; i < mas.Length; i++)
 Console.Write("Введите номер числа: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-if (n < m)
+if (n <= 0)
 {
-    Console.WriteLine($"Число равно: {b[n]}");
+    Console.WriteLine("Номер числа не может быть равен или меньше '0'");
 }
 
 else
 {
-    Console.WriteLine("Значение отсутсвсует!");
+    if (n <= m)
+    {
+        Console.WriteLine($"Число равно: {b[n - 1]}");
+    }
+
+    else
+    {
+        Console.WriteLine("Значение отсутсвсует!");
+    }
 }
 
 Console.WriteLine(s);
