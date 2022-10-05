@@ -16,14 +16,30 @@ var number = Convert.ToInt32(Console.ReadLine());
 string[] daysOfWeek = { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
 int i = number - 1;
 
-if (i < 5)
+if (number <= 0)
 {
-    Console.WriteLine($"День недели: {daysOfWeek[i]} - будний день");
+    Console.WriteLine("Вы ввели некорректный день недели!");
 }
 
 else
+
+if (i < daysOfWeek.Length)
 {
-    Console.WriteLine($"День недели: {daysOfWeek[i]} - выходной день");
+
+    if (i < 5)
+    {
+        Console.WriteLine($"День недели: {daysOfWeek[i]} - будний день");
+    }
+
+    else
+    {
+        Console.WriteLine($"День недели: {daysOfWeek[i]} - выходной день");
+    }
+
 }
+
+else
+
+    Console.WriteLine("Вы ввели неккоректный день недели");
 
 Console.WriteLine(s);
