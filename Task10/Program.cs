@@ -7,6 +7,20 @@
 918 -> 1
 
 */
+/*
+ПЕРВЫЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ
+*/
+
+Console.Write("Введите трехзначное число: ");
+var number = Convert.ToInt32(Console.ReadLine());
+
+string str = number.ToString();
+Console.WriteLine($"Вторая цифра числа {number} -> {str[1]}");
+
+/*
+ВТОРОЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ
+*/
+/*
 
 string s = string.Empty;
 Console.WriteLine(s);
@@ -31,8 +45,10 @@ if (numbers >= 1000)
 
 Console.WriteLine(s);
 
+*/
+
 /*
-ДРУГОЙ СПОСОБ РЕШЕНИЯ
+ТРЕТИЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ
 */
 
 /*string s = String.Empty;
