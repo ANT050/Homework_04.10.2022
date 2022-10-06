@@ -13,11 +13,14 @@
 
 string s = String.Empty;
 Console.WriteLine(s);
+
 Console.Write("Введите трехзначное число: ");
 var number = Convert.ToInt32(Console.ReadLine());
 
 string str = number.ToString();
 Console.WriteLine($"Вторая цифра числа {number} -> {str[1]}");
+
+Console.WriteLine(s);
 
 /*
 ВТОРОЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ
