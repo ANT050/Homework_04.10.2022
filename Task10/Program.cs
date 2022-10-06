@@ -11,6 +11,8 @@
 ПЕРВЫЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ
 */
 
+string s = String.Empty;
+Console.WriteLine(s);
 Console.Write("Введите трехзначное число: ");
 var number = Convert.ToInt32(Console.ReadLine());
 
