@@ -40,6 +40,6 @@ if (i < daysOfWeek.Length)
 
 else
 
-    Console.WriteLine("Вы ввели неккоректный день недели");
+    Console.WriteLine("Вы ввели некорректный день недели");
 
 Console.WriteLine(s);
