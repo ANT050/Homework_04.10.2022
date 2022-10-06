@@ -10,6 +10,38 @@
 
 */
 
+/*
+ПЕРВЫЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ
+*/
+
+string s = String.Empty;
+Console.WriteLine(s);
+
+Console.Write("Введите трехзначное число: ");
+
+var number = Convert.ToInt32(Console.ReadLine());
+string str = number.ToString();
+var m = str.Length;
+var n = 2;
+
+if (m <= n)
+{
+    Console.WriteLine("Число не содержит третьей цифры");
+}
+else
+{
+    Console.WriteLine($"Вторая цифра числа {number} -> {str[2]}");
+}
+
+Console.WriteLine(s);
+
+
+/*
+ВТОРОЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ
+*/
+
+/*
+
 string s = String.Empty;
 Console.WriteLine(s);
 Console.Write("Введите число: ");
@@ -43,9 +75,10 @@ if (numbers >=100000)
 
 Console.WriteLine(s);
 
+*/
 
 /* 
-ДРУГОЙ СПОСОБ РЕШЕНИЯ
+ТРЕТИЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ
 */
 
 /*
