@@ -16,6 +16,8 @@
 - 782 -> 8
 - 918 -> 1
 
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_04.10.2022/blob/main/Task10/Program.cs "Открыть")
+
 ---
 
 <u>***Задача 13:***</u>
@@ -28,6 +30,8 @@
 
 - 32679 -> 6
 
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_04.10.2022/blob/main/Task13/Program.cs "Открыть")
+
 ---
 
 <u>***Задача 15:***</u>
@@ -37,5 +41,7 @@
 - 6 -> да
 - 7 -> да
 - 1 -> нет
+
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_04.10.2022/blob/main/Task15/Program.cs "Открыть")
 
 ---
